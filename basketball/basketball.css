@@ -1,0 +1,55 @@
+header {
+    color: black;
+    text-align: center;
+    font-style: bold;
+    font-size: 40px;
+    text-decoration: underline;
+    border: 2px solid red;
+    padding: 20px;
+    background: rgba(101, 211, 238, 0.5);
+}
+
+nav {
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    font-style: bold;
+}
+
+a {
+    color: red;
+    padding: 10px;
+}
+
+.grid-container > .history {
+    grid-area: intro;
+    color:red;
+}
+
+.grid-container > .history > p {
+    font-size: 24px;
+}
+.info {
+    color: red;
+    font-style: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.grid-container > .original_rules {
+    grid-area: aboutme;
+    color:red;
+}
+
+.grid-container > .original_rules > p {
+    font-size:  24px;
+}
+
+footer {
+    color: red;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid red;
+    padding: 3px;
+    background: rgba(101, 211, 238, 0.5);
+}
