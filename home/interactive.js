@@ -13,8 +13,23 @@ addEventListener("load",() => { // "load" is safe but "DOMContentLoaded" starts 
 function myFunction() {
     const x = document.getElementById("nav");
     if (x.style.display === "none") {
-      x.style.display = "block";
+      x.style.display = "flex";
     } else {
       x.style.display = "none";
     }
   }
+
+
+
+  function typeWriter(WIS) {
+      const textArray = WIS.innerHTML.split('');
+      WIS.innerHTML = '';
+      textArray.forEach((letter, i) =>
+          setTimeout(() => (WIS.innerHTML += letter), 175 * i)
+      );
+  
+      setInterval(() => typeWriter(WIS), 8000);
+  }
+  
+  typeWriter(WIS);
+  
