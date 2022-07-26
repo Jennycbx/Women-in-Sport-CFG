@@ -1,3 +1,4 @@
+/*
 header {
     color: black;
     text-align: center;
@@ -53,3 +54,114 @@ footer {
     padding: 3px;
     background: rgba(101, 211, 238, 0.5);
 }
+
+*/
+
+html {
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+  } 
+    
+header {
+      background-color: black;
+      color: white;
+      height: 20vh;
+      width: 100vw;
+      margin: 0;
+      padding: 0%;
+      position: relative;
+      text-align: center;    
+}
+
+.home-title {
+    position: fixed;
+    width: 100%;
+    font-size: 55px;
+    font-family: chalkduster;
+    top: 0;
+    text-align: center;
+    z-index: 3;
+    opacity: .9;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    flex: 0.5;
+    justify-content:center;
+    background-color: black;
+    position: fixed; 
+    top: 15%;
+    margin: 0%;
+    padding: 0%;
+    width: 95vw;
+    z-index: 3;
+    font-size: 2.25vw;
+  }
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 0px;
+    padding-inline: 2%;
+    text-decoration: none;
+    font-family: 'Copperplate', 'Chalkduster', 'Lucidia Sans';
+    
+  }
+  
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+    opacity: 0.75;
+    font-size: 2.75vw;
+  }
+
+.grid-container > .history {
+    grid-area: intro;
+    color:white;
+}
+
+.grid-container > .history > p {
+    font-size: 24px;
+}
+.info {
+    color: white;
+    font-style: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.grid-container > .original_rules {
+    grid-area: aboutme;
+    color:white;
+}
+
+.grid-container > .original_rules > p {
+    font-size:  24px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 3px;
+    background: black;
+}
+
+
+/*
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    width: 100%;
+   }
+    
+  .grid-item{
+    background-color: blue;
+    height: 100vh;
+    top: 20%;
+  }
+  */
