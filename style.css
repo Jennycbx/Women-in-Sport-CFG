@@ -1,0 +1,221 @@
+/* Rurie CSS */
+
+html {
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  background-color: black;
+  position: fixed;
+  /* Kate changed top from 15% to 0 to resolve navbar overlay issue*/
+  top: 0;
+  margin: 0%;
+  padding: 0%;
+  width: 95vw;
+  z-index: 3;
+  font-size: 2.25vw;
+}
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 0px;
+  padding-inline: 2%;
+  text-decoration: none;
+  font-family: "Copperplate", "Chalkduster", "Lucidia Sans";
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  opacity: 0.75;
+  font-size: 2.75vw;
+}
+
+.home-page {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0%;
+  position: relative;
+}
+.slides {
+  height: 100vh;
+  width: 100vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: absolute;
+}
+
+.slides-hidden {
+  display: none;
+}
+
+.WIS {
+  width: 100vw;
+  bottom: 20%;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 6.5vw;
+  text-align: center;
+  overflow: visible;
+  z-index: 4;
+  position: absolute;
+  letter-spacing: 2rem;
+  font-family: Chalkduster;
+}
+
+#WIS::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blink 0.7s infinite;
+  z-index: 4;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.home-title {
+  position: fixed;
+  width: 100%;
+  font-size: 55px;
+  font-family: chalkduster;
+  top: 0;
+  text-align: center;
+  z-index: 3;
+  opacity: 0.9;
+}
+
+.cover {
+  z-index: 2;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0;
+  padding: 0;
+}
+
+.about-page {
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+
+.grid-item {
+  background-color: blue;
+  height: 100vh;
+  top: 20%;
+}
+
+/* Kate CSS */
+
+/* Kate tried to add styles to body to avoid navbar overlay issue - didn't work*/
+.main {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.netball-title {
+  color: white;
+  font-size: 55px;
+  font-family: chalkduster;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-child-a{
+  float: left;
+}
+
+.flex-child-b{
+  float: right;
+}
+
+.origins {
+  color: white;
+  font-family: "Copperplate", "Chalkduster", "Lucidia Sans";
+  text-align: left;
+  margin-right: 25px;
+  background-color: auto;
+}
+
+.basics {
+  color: white;
+  font-family: "Copperplate", "Chalkduster", "Lucidia Sans";
+  text-align: left;
+  margin-left: 25px;
+  background-color: auto;
+}
+
+.court-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 80%;
+  background-color: paleturquoise;
+}
+
+.positions {
+  color: white;
+  font-family: "Copperplate", "Chalkduster", "Lucidia Sans";
+  background-color: darkolivegreen;
+}
+
+.positions-heading{
+  text-align: center;
+}
+
+.grid-container-a{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+/*
+.grid-child-a{
+  float: left;
+}
+
+.grid-child-b{
+  float: right;
+}
+*/
+
+.rules{
+  color: white;
+  font-family: "Copperplate", "Chalkduster", "Lucidia Sans";
+  text-align: left;
+  margin-left: 25px;
+  background-color: blue;
+}
+
+.professional{
+  color: white;
+  font-family: "Copperplate", "Chalkduster", "Lucidia Sans";
+  text-align: left;
+  margin-left: 25px;
+  background-color: blue;
+}
