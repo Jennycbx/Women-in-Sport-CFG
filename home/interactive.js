@@ -19,17 +19,17 @@ function myFunction() {
     }
   }
 
-
+ 
 
   function typeWriter(WIS) {
       const textArray = WIS.innerHTML.split('');
       WIS.innerHTML = '';
       textArray.forEach((letter, i) =>
-          setTimeout(() => (WIS.innerHTML += letter), 175 * i)
+          setTimeout(() => (WIS.innerHTML += letter), 196 * i)
       );
   
       setInterval(() => typeWriter(WIS), 8000);
   }
-  
-  typeWriter(WIS);
+  typeWriter(WIS); 
+
   
