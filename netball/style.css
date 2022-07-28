@@ -207,3 +207,12 @@ html {
   text-align: left;
   background-color: auto;
 }
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid white;
+  padding: 3px;
+  background: black;
+}
