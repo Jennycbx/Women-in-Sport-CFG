@@ -188,34 +188,22 @@ html {
   text-align: center;
 }
 
-.grid-container-a{
+.grid-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
 }
 
-/*
-.grid-child-a{
-  float: left;
-}
-
-.grid-child-b{
-  float: right;
-}
-*/
-
 .rules{
   color: white;
   font-family: "Copperplate", "Chalkduster", "Lucidia Sans";
   text-align: left;
-  margin-left: 25px;
-  background-color: blue;
+  background-color: auto;
 }
 
 .professional{
   color: white;
   font-family: "Copperplate", "Chalkduster", "Lucidia Sans";
   text-align: left;
-  margin-left: 25px;
-  background-color: blue;
+  background-color: auto;
 }
