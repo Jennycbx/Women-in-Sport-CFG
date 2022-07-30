@@ -1,0 +1,53 @@
+html {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  margin: 0%;
+  padding: 0%;
+  width: 95vw;
+  z-index: 3;
+  font-size: 2.25vw;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 0px;
+  padding-inline: 2%;
+  text-decoration: none;
+  font-family: "Copperplate", "Chalkduster", "Lucidia Sans";
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  opacity: 0.75;
+  font-size: 2.75vw;
+}
+
+.players-title {
+  color: white;
+  font-size: 55px;
+  font-family: chalkduster;
+  text-align: center;
+  opacity: 0.9;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid white;
+  padding: 3px;
+  background: black;
+}
