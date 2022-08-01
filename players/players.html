@@ -4,18 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Players</title>
     <link rel="stylesheet" href="players.css" />
+    <script src="players.js"></script>
   </head>
 
   <header>
     <div class="navbar" , id="nav">
       <a href="../home/home.html">Home</a>
       <a href="../basketball/basketball.html">Basketball</a>
-      <a href="../netball/netball.html">Netball</a>
-      <a href="../players/players.html">Players</a>
-      <a href="../map/map.html">Map</a>
-      <a href="game.html">Game</a>
+      <a href="..netball/netball.html">Netball</a>
+      <a href="players.html">Players</a>
+      <a href="..map/map.html">Map</a>
+      <a href="..game/game.html">Game</a>
     </div>
   </header>
 
@@ -24,20 +26,60 @@
       <h1 class="players-title">Players</h1>
     </div>
 
-    <div>
-        <h2>Netball players</h2>
-    </div>
+    <div class="grid-container">
+      <div class="grid-child-a">
+        <div>
+          <h2>World's best netballer</h2>
+        </div>
 
-    <div>
-        <img src="j_fowler.png">
-    </div>
+        <div class="jf-img">
+          <img
+            src="j_fowler.jpeg"
+            alt="Jhanielle Fowler"
+            style="width: 500px; height: 600px"
+          />
 
-    <div>
-        <h2>Basketball players</h2>
-    </div>
+          <button id="myBtn">More info</button>
+          <div id="jf-modal" class="modal">
+            <div class="jf-modal-content">
+              <span class="close" id="close">&times;</span>
+              <p>
+                She is still the most dominant force in any shooting circle and
+                a nightmare for any defender or coach to face. Her take and
+                strength on the ball is incredible, her shooting accuracy is
+                frightening, and more importantly she is still adding to her
+                game especially with her circle release and offloads. - Tamsin
+                Greenway, former international player and current head coach of
+                Scotland.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <div>
-        <img src="b_stewart.png">
+      <div class="grid-child-b">
+        <div>
+          <h2>World's best basketballer</h2>
+        </div>
+
+        <div class="bs-img">
+          <img
+            src="b_stewart.png"
+            alt="Breanne Stewart"
+            style="width: 500px; height: 600px"
+          />
+
+          <button id="myBtn">More info</button>
+          <div id="bs-modal" class="modal">
+            <div class="bs-modal-content">
+              <span class="close" id="close">&times;</span>
+              <p>
+                Breanna Stewart.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <footer>
