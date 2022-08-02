@@ -74,6 +74,7 @@ header {
 .grid-container > .map {
     grid-area: intro;
     color:white;
+    
 }
 
 .grid-container > .map > p {
