@@ -91,7 +91,7 @@ var selected = "";
 
 // Show selection for op1
 op1.addEventListener("click", () => {
-    op1.style.backgroundColor = "rgb(203, 160, 232)";
+    op1.style.backgroundColor = "blue";
     op2.style.backgroundColor = "lightgrey";
     op3.style.backgroundColor = "lightgrey";
     op4.style.backgroundColor = "lightgrey";
@@ -101,7 +101,7 @@ op1.addEventListener("click", () => {
 // Show selection for op2
 op2.addEventListener("click", () => {
     op1.style.backgroundColor = "lightgrey";
-    op2.style.backgroundColor = "rgb(203, 160, 232)";
+    op2.style.backgroundColor = "blue";
     op3.style.backgroundColor = "lightgrey";
     op4.style.backgroundColor = "lightgrey";
     selected = op2.value;
@@ -111,7 +111,7 @@ op2.addEventListener("click", () => {
 op3.addEventListener("click", () => {
     op1.style.backgroundColor = "lightgrey";
     op2.style.backgroundColor = "lightgrey";
-    op3.style.backgroundColor = "rgb(203, 160, 232)";
+    op3.style.backgroundColor = "blue";
     op4.style.backgroundColor = "lightgrey";
     selected = op3.value;
 })
@@ -121,7 +121,7 @@ op4.addEventListener("click", () => {
     op1.style.backgroundColor = "lightgrey";
     op2.style.backgroundColor = "lightgrey";
     op3.style.backgroundColor = "lightgrey";
-    op4.style.backgroundColor = "rgb(203, 160, 232)";
+    op4.style.backgroundColor = "blue";
     selected = op4.value;
 })
 
