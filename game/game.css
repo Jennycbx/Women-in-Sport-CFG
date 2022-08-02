@@ -100,7 +100,7 @@ body{
     font-family: Chalkduster;
 }
 .option:hover{
-    background-color: rgb(203, 160, 232)
+    background-color: blue
 }
 .navigation{
     width: 80vw;
