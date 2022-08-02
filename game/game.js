@@ -135,11 +135,12 @@ evaluate[0].addEventListener("click", () => {
         result[0].style.color = "green";
     } else {
         result[0].innerHTML = "Try Again";
-        result[0].style.color = "red";
+        result[0].style.color = "red";   
+    
+    
     }
-})
-}
-
+    })
+    }
 if (start) {
 iterate("0");
 }
@@ -155,5 +156,7 @@ if (id < 5) {
     iterate(id);
     console.log(id);
 }
-
+else{
+    window.location.reload();}
 })
+
